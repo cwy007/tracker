@@ -7,4 +7,14 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  this.route('sightings', function() {
+    this.route('new');
+  });
+  this.route('sighting', function() {
+    this.route('edit');
+  });
+  this.route('cryptids');
+  this.route('cryptid');
+  this.route('witnesses');
+  this.route('witness');
 });

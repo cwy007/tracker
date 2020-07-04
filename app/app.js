@@ -1,3 +1,5 @@
+// 这个文件 app.js 是应用的入口
+//
 import Application from '@ember/application';
 import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
