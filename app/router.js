@@ -7,7 +7,9 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  // 父级路由就像名词
   this.route('sightings', function() {
+    // 子路由就像动词或者形容词
     this.route('new');
   });
   this.route('sighting', function() {
